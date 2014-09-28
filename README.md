@@ -8,10 +8,12 @@ archives. It manages the fetch-unpack-configure-build-install process
 common to installing software from source, or from binary
 distributions that are not fully fledged OS packages.
 
-This is a modified verion of Infochimp's awesome
+This is a modified verion of a modified version of Infochimp's awesome
 [install_from cookbook](http://github.com/infochimps-cookbooks/install_from).
 It has been heavily refactored and extended to meet different use
 cases.
+
+**This version has no Windows support as it is not needed for my VM use.**
 
 Given a simple project archive available at a url:
 

@@ -7,7 +7,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.9.1'
 
 def supported_operating_systems
-  %w( debian ubuntu centos redhat fedora windows )
+  %w( debian ubuntu centos redhat fedora )
 end
 
 supported_operating_systems.each { |os| supports os }
@@ -15,5 +15,4 @@ supported_operating_systems.each { |os| supports os }
 recipe 'ark::default', 'Installs and configures ark'
 
 depends 'build-essential'
-depends 'windows'
-depends '7-zip'
+
